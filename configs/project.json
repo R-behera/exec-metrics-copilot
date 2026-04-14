@@ -1,0 +1,46 @@
+{
+  "slug": "exec-metrics-copilot",
+  "title": "Exec Metrics Copilot",
+  "project_type": "llm",
+  "domain": "Executive Analytics",
+  "summary": "Turn KPI changes into plain-language executive summaries with linked operational context.",
+  "tags": [
+    "executive",
+    "summaries",
+    "analytics"
+  ],
+  "accent": "#2a9d8f",
+  "dashboard_metrics": [
+    {
+      "label": "Resolution Rate",
+      "value": "58%",
+      "delta": "+5.8%"
+    },
+    {
+      "label": "Answer Quality",
+      "value": "93%",
+      "delta": "+2.2%"
+    },
+    {
+      "label": "Ops Time Saved",
+      "value": "12h",
+      "delta": "+3h"
+    }
+  ],
+  "sample_features": {
+    "query": "Summarize the highest priority risk and recommended next step.",
+    "audience": "analytics"
+  },
+  "sample_metrics": {
+    "acquisition": 49.3,
+    "activation": 46.5,
+    "retention": 57.6,
+    "revenue": 96.1
+  },
+  "knowledge_base": [
+    "Exec Metrics Copilot is positioned as a Executive Analytics starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.",
+    "The primary value proposition is: Turn KPI changes into plain-language executive summaries with linked operational context.",
+    "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.",
+    "Typical stakeholders include analytics, operations, product, and leadership teams working on executive, summaries, analytics."
+  ]
+}
